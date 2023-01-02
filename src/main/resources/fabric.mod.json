@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cooldowndisplay",
+  "version": "${version}",
+  "name": "Cooldowndisplay",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cooldowndisplay/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.char321.cooldowndisplay.client.CooldowndisplayClient"
+    ]
+  },
+  "mixins": [
+    "cooldowndisplay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "minecraft": "1.16.5"
+  }
+}

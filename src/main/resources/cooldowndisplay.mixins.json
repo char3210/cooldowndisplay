@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.char321.cooldowndisplay.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ClientMixin",
+    "InteractionMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
